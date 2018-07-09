@@ -32,17 +32,17 @@ GEM
     multi_xml (0.6.0)
     mustermann (1.0.2)
     pg (1.0.0)
-    rack (2.0.4)
-    rack-protection (2.0.1)
+    rack (2.0.5)
+    rack-protection (2.0.3)
       rack
     rake (12.3.1)
     shopify_api (4.11.0)
       activeresource (>= 3.0.0)
       rack
-    sinatra (2.0.1)
+    sinatra (2.0.3)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.1)
+      rack-protection (= 2.0.3)
       tilt (~> 2.0)
     sinatra-activerecord (2.0.13)
       activerecord (>= 3.2)
@@ -63,6 +63,7 @@ DEPENDENCIES
   pg
   rake
   shopify_api
+  sinatra (~> 2.0.2)
   sinatra-activerecord
 
 RUBY VERSION

@@ -4,7 +4,7 @@ gem 'httparty'
 gem 'dotenv'
 #gem "resque"
 gem 'activerecord'
-#gem 'sinatra'
+gem 'sinatra',  '~> 2.0.2'
 gem "sinatra-activerecord"
 gem 'pg'
 gem "activesupport"
